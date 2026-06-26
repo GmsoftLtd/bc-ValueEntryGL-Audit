@@ -10,6 +10,13 @@
   "url": "https://github.com/youraccount/ValueEntryAudit",
   "logo": "",
   "dependencies": [],
+  "internalsVisibleTo": [
+    {
+      "id": "b3c879e6-1f2a-4d5b-9c8e-7a6f0d2e1b40",
+      "name": "ValueEntryAudit.Test",
+      "publisher": "YourPublisherName"
+    }
+  ],
   "screenshots": [],
   "platform": "27.0.0.0",
   "application": "27.0.0.0",

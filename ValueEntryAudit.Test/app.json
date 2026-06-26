@@ -1,0 +1,43 @@
+{
+  "id": "b3c879e6-1f2a-4d5b-9c8e-7a6f0d2e1b40",
+  "name": "ValueEntryAudit.Test",
+  "publisher": "YourPublisherName",
+  "version": "1.0.0.0",
+  "brief": "Tests for the Value Entry G/L Audit extension",
+  "description": "Automated tests for the Value Entry G/L Audit extension.",
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
+  "dependencies": [
+    {
+      "id": "a2b768d5-fb88-4a65-bbc6-fc7a943a97e3",
+      "name": "ValueEntryAudit",
+      "publisher": "YourPublisherName",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "name": "Library Assert",
+      "publisher": "Microsoft",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "name": "Test Runner",
+      "publisher": "Microsoft",
+      "version": "1.0.0.0"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50150,
+      "to": 50199
+    }
+  ],
+  "target": "Cloud",
+  "features": [ "NoImplicitWith" ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
+}
