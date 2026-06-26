@@ -167,7 +167,6 @@ codeunit 50150 "Value Entry Audit Test"
 
         GLItemLedgerRelation.Init();
         GLItemLedgerRelation."G/L Entry No." := NextGLEntryNo;
-        GLItemLedgerRelation."Item Ledger Entry No." := NextGLEntryNo;
         GLItemLedgerRelation."Value Entry No." := ValueEntryNo;
         GLItemLedgerRelation.Insert(false);
     end;
