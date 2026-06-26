@@ -1,0 +1,29 @@
+{
+  "name": "ValueEntryAudit",
+  "publisher": "YourPublisherName",
+  "version": "1.0.0.0",
+  "brief": "Audit report to validate Value Entry G/L postings",
+  "description": "Extension that adds a report to cross-check Value Entry records against expected G/L account configurations from posting groups.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://github.com/youraccount/ValueEntryAudit",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
+  "id": "a2b768d5-fb88-4a65-bbc6-fc7a943a97e3",
+  "target": "Cloud",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  }
+}

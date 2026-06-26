@@ -1,0 +1,15 @@
+.vscode/
+.idea/
+.alpackages/
+*.app
+*.launch.json
+*.user
+*.workspace
+*.vsix
+*.zip
+node_modules/
+*.code-workspace
+*.vs/
+Thumbs.db
+.DS_Store
+out/
