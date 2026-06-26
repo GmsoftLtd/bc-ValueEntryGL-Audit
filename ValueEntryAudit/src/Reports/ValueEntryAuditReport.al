@@ -73,7 +73,7 @@ report 50100 "Value Entry G/L Audit"
         layout("ValueEntryAuditRDLC")
         {
             Type = RDLC;
-            LayoutFile = './src/ValueEntryAuditReport.rdl';
+            LayoutFile = './src/Reports/ValueEntryAuditReport.rdl';
             Caption = 'Value Entry G/L Audit';
             Summary = 'Tabular layout that highlights value entries whose posted G/L accounts differ from the expected accounts.';
         }
